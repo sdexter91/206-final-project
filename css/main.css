@@ -139,6 +139,14 @@ textarea {
     font-size: .875em;
     line-height: 1.285;
   }
+
+  img {
+    width: 100%;
+  }
+
+  figure {
+    margin: 0;
+  }
    
   address {
     font-style: normal;
@@ -171,6 +179,14 @@ textarea {
       align-items: center;
       flex-flow: row wrap;
       margin: 0;
+   }
+
+   header figure {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
    }
 
    .header-divider {
@@ -243,6 +259,9 @@ textarea {
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
+      background: url(../img/jake-melara-30679-unsplash.jpg) center;
+      background-size: cover;
+      min-height: 500px;
    }
 
    .hero-area h1 {
@@ -294,6 +313,8 @@ textarea {
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
+      background: url('../img/rawpixel-800820-unsplash1.jpg') center;
+      background-size: cover;
    }
 
    .features h2 {
@@ -531,6 +552,10 @@ textarea {
  
     /* Hero Area */
 
+    .hero-area {
+      min-height: 600px;
+    }
+
     .hero-area h1 {
       font-size: 3em;
       line-height: 1;
@@ -579,6 +604,7 @@ textarea {
         width: 85%;
     }
 
+    .reviews article figure,
     .reviews article div {
         width: 49%;        
     }
@@ -677,6 +703,10 @@ textarea {
       padding: 15px 0;
     }
 
+    .hero-area {
+      min-height: 775px;
+    }
+
     .content-wrapper {
         max-width: 960px;
     }
@@ -696,8 +726,9 @@ textarea {
     }
  
      /* Hero */
+
     .hero-area h1 {
-        width: 60%;
+        width: 80%;
         font-size: 3.75em;
     }
  
